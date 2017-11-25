@@ -31,3 +31,8 @@ polygon {
 .triangle_group {
   stroke-width: 1px;
 }
+path {
+  fill: #008B6F;
+  stroke: #000;
+  stroke-width: 2px;
+}
