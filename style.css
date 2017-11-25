@@ -1,3 +1,7 @@
+svg {
+  height: auto;
+  width: 50%;
+}
 circle {
   fill: none;
   stroke: #008B6F;
