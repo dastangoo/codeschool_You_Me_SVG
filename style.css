@@ -1,9 +1,25 @@
 circle {
-  animation: grow 2s infinite;
-  transform-origin: center;
+  fill: none;
+  stroke: #008B6F;
+  stroke-width: 7px;
 }
-@keyframes grow {
-  0% {transform:  scale(1);}
-  50% {transform: scale(0.5);}
-  100% {transform: scale(1);}
+
+line {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+text {
+  font-size: 60px;
+  text-anchor: middle;
+  font-family: 'FilmotypeMajor';
+  stroke: #000;
+  stroke-width: 3px;
+  fill: #F6F7F3;
+}
+
+polygon {
+  fill: #008B6F;
+  stroke: black;
+  stroke-width: 2px;
 }
